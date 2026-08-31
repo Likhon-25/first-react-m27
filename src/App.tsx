@@ -1,14 +1,16 @@
-import Todo from './Todo';
-
+// import Todo from './Todo';
+import Task from './Task'
 import './App.css';
 function App() {
 
   return (
     <>    
-          <h1>Assalamulaikum</h1>  
-          <Todo task='Practice Coading' time='2.00'></Todo>
+          <h1>Assalamulaikum</h1>
+          <Task name='Finished Module' isDone={true}></Task>  
+          <Task name='Scroll Facebook' isDone={false}></Task>  
+          {/* <Todo task='Practice Coading' time='2.00'></Todo>
           <Todo task='Take a shower' time='12.00'></Todo>
-          <Todo task='No social media'></Todo>
+          <Todo task='No social media'></Todo> */}
           {/* <Student name="Subida Badi" gpa='3.65'></Student>
           <Student name="Pati leader" ></Student> */}
           {/* <Person></Person> 
